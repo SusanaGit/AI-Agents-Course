@@ -1,8 +1,8 @@
 from openai_module import generate_text_basic
 
-prompt = "generate a 5 word sentence"
+prompt = "Should I take an umbrella when going out today in California?"
 
-response = generate_text_basic(prompt)
+response = generate_text_basic(prompt, model="gpt-3.5-turbo")
 
 print(response)
 
